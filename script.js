@@ -129,7 +129,7 @@ function showEventModal(html) {
     <div style="background:#fff;padding:24px;border-radius:12px;min-width:320px;max-width:420px;">
       ${html}
       <div style="text-align:right;margin-top:18px;">
-        <button onclick="this.parentElement.parentElement.parentElement.remove()" style="background:#6c63ff;color:#fff;border:none;border-radius:6px;padding:8px 18px;">Close</button>
+        <button onclick="this.parentElement.parentElement.parentElement.remove()" style="background:rgb(58, 0, 0);color:#fff;border:none;border-radius:6px;padding:8px 18px;">Close</button>
       </div>
     </div>
   </div>`;
