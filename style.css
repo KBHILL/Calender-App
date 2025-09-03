@@ -1,6 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Bungee:regular);
+
 body {
-  font-family: 'Montserrat', sans-serif;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  font-family: 'Bungee', sans-serif;
+  background: black;
   margin: 0;
   padding: 0;
 }
@@ -12,9 +14,9 @@ body {
 }
 .container-calendar {
   display: flex;
-  background: #fff;
+  background: #2b2a2a;
   border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(52, 73, 94, 0.2);
+  box-shadow: 0 10px 30px rgb(58, 0, 0);
   margin-top: 40px;
   overflow: hidden;
   width: 900px;
@@ -22,15 +24,17 @@ body {
 }
 #left {
   padding: 35px 25px;
-  background: #FAFAFA;
+  background: #2b2a2a;
   min-width: 320px;
   border-right: 2px solid #e1e4ea;
 }
 #event-section, #reminder-section {
   margin-bottom: 40px;
+  text-shadow: 0 1px 5px white;
 }
 h1 {
-  color: #5e5873;
+  color: white;
+  text-shadow: 0 7px 15px rgb(58, 0, 0);
   margin-bottom: 25px;
 }
 input, select, button {
@@ -43,21 +47,21 @@ input, select, button {
   font-size: 16px;
 }
 button {
-  background: #6c63ff;
+  background: #000000;
   color: white;
   border: none;
   cursor: pointer;
-  transition: background 0.2s;
+  transition: background 0.6s;
 }
 button:hover {
-  background: #5447cb;
+  background: rgb(58, 0, 0);
 }
 ul#reminderList {
   list-style: none;
   padding: 0;
 }
 ul#reminderList li {
-  background: #e1e4ea;
+  background: #ffffff;
   margin-bottom: 8px;
   padding: 8px 10px;
   border-radius: 8px;
@@ -65,7 +69,7 @@ ul#reminderList li {
   justify-content: space-between;
 }
 .delete-event {
-  background: #ff4081;
+  background: black;
   padding: 4px 10px;
   border: none;
   border-radius: 6px;
@@ -79,7 +83,8 @@ ul#reminderList li {
 }
 #monthAndYear {
   font-size: 1.5em;
-  color: #6c63ff;
+  color: white;
+  text-shadow: 0 7px 15px rgb(58, 0, 0);
   margin: 15px 0;
 }
 .table-calendar {
@@ -95,18 +100,18 @@ ul#reminderList li {
   text-align: center;
 }
 .table-calendar th {
-  background: #6c63ff;
-  color: #fff;
+  background: rgb(58, 0, 0);
+  color: #ffffff;
   font-weight: 600;
 }
 .table-calendar td {
-  background: #FAFAFA;
+  background: #ffffff;
   cursor: pointer;
   transition: background 0.2s;
   position: relative;
 }
 .table-calendar td:hover {
-  background: #fceff9;
+  background: rgb(58, 0, 0);
 }
 .event-marker {
   width: 8px;
@@ -120,12 +125,13 @@ ul#reminderList li {
 }
 .today {
   background: #fceff9 !important;
-  border: 2px solid #ff4081;
+  border: 2px solid rgb(58, 0, 0);
 }
 .footer-container-calendar {
   margin-top: 18px;
   display: flex;
   align-items: center;
+  text-shadow: 0 1px 5px white;
 }
 .footer-container-calendar label {
   font-weight: 500;
